@@ -1,16 +1,14 @@
-import Vue from 'vue';
-import App from '@/App.vue';
-import router from '@/routes/router';
-import store from '@/store/store';
-import '@/registerServiceWorker';
-import ElementUi from 'element-ui';
+import "@/plugins";
 
-Vue.config.productionTip = false;
-
-Vue.use(ElementUi);
+// application instance
+import Vue from "vue";
+import router from "@/router/router";
+import store from "@/db";
+import { render, el } from "@/config";
 
 new Vue({
+  el,
   router,
   store,
-  render: (h) => h(App),
-}).$mount('#app');
+  render
+});

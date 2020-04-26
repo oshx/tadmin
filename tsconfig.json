@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es2020",
+    "module": "CommonJS",
     "strict": true,
     "jsx": "preserve",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
     "importHelpers": true,
     "moduleResolution": "node",
     "experimentalDecorators": true,
@@ -23,19 +26,27 @@
     },
     "lib": [
       "esnext",
+      "ES2020",
       "dom",
       "dom.iterable",
       "scripthost"
     ]
   },
+  "compileOnSave": true,
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx",
+    "vue.config.ts",
+    "babel.config.ts",
+    ".postcssrc"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "node_modules/**",
+    "node_modules/**/*",
+    "*.js"
   ]
 }
