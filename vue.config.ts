@@ -4,12 +4,11 @@ const config: ProjectOptions = {
   lintOnSave: process.env.NODE_ENV !== "test",
   css: {
     requireModuleExtension: true,
-    sourceMap: true
+    sourceMap: true,
   },
-
   pwa: {
-    themeColor: "#336699"
-  }
+    themeColor: "#336699",
+  },
 };
 
 export default config;

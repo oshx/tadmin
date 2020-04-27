@@ -40,8 +40,7 @@
     "tests/**/*.ts",
     "tests/**/*.tsx",
     "vue.config.ts",
-    "babel.config.ts",
-    ".postcssrc"
+    "babel.config.ts"
   ],
   "exclude": [
     "node_modules",
