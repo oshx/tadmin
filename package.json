@@ -76,5 +76,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/oshx/tadmin.git"
+  },
+  "engines": {
+    "yarn": "NPM 쓰세요."
   }
 }
