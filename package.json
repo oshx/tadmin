@@ -16,7 +16,7 @@
     "test:serve": "npm run build && serve dist -p 8080"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "element-ui": "^2.13.1",
     "noto-sans-kr": "^0.1.1",
