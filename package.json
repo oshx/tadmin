@@ -1,83 +1,32 @@
 {
   "name": "tadmin",
-  "version": "0.1.0",
-  "private": false,
+  "description": "[Table-based ADMIN] = TADMIN is assembled code base for creating a back-office software of their operation administrator.",
+  "version": "0.1.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engines": {
+    "yarn": "허용 안 함",
+    "pnpm": "허용 안 함"
+  },
   "author": {
     "name": "오승환",
     "email": "oshxios@gmail.com"
   },
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "check": "npm-check -u",
-    "manage": "vue ui",
-    "test:unit": "vue-cli-service test:unit",
-    "test:serve": "npm run build && serve dist -p 8080"
-  },
   "dependencies": {
-    "axios": "^0.19.2",
-    "core-js": "^3.6.5",
-    "element-ui": "^2.13.1",
-    "noto-sans-kr": "^0.1.1",
-    "register-service-worker": "^1.7.1",
-    "vue": "^2.6.11",
-    "vue-class-component": "^7.2.3",
-    "vue-property-decorator": "^8.4.2",
-    "vue-router": "^3.1.6",
-    "vuex": "^3.3.0"
+    "next": "12.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/chai": "^4.2.11",
-    "@types/mocha": "^7.0.2",
-    "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.26.0",
-    "@vue/cli": "^4.3.1",
-    "@vue/cli-plugin-babel": "^4.3.1",
-    "@vue/cli-plugin-eslint": "^4.3.1",
-    "@vue/cli-plugin-pwa": "^4.3.1",
-    "@vue/cli-plugin-typescript": "^4.3.1",
-    "@vue/cli-plugin-unit-mocha": "^4.3.1",
-    "@vue/cli-service": "^4.3.1",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^5.0.2",
-    "@vue/test-utils": "1.0.0-beta.29",
-    "chai": "^4.1.2",
-    "eslint": "^6.7.2",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^6.2.2",
-    "lint-staged": "^10.1.7",
-    "node-sass": "^4.14.0",
-    "npm-check": "^5.9.2",
-    "prettier": "^2.0.5",
-    "sass-loader": "^8.0.2",
-    "serve": "^11.3.0",
-    "typescript": "^3.8.3",
-    "vue-template-compiler": "^2.6.11"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "license": "UNLICENSED",
-  "lint-staged": {
-    "*.ts": [
-      "vue-cli-service lint",
-      "git add"
-    ],
-    "*.vue": [
-      "vue-cli-service lint",
-      "git add"
-    ],
-    "*.{js,jsx,vue,ts,tsx}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/oshx/tadmin.git"
-  },
-  "engines": {
-    "yarn": "NPM 쓰세요."
+    "@types/node": "18.0.0",
+    "@types/react": "18.0.14",
+    "@types/react-dom": "18.0.5",
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "4.7.3"
   }
 }
