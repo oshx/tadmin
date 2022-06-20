@@ -33,3 +33,10 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# package manager - NPM is allowed only
+yarn.lock
+pnpm-lock.yaml
+
+# IDE
+.idea/

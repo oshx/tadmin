@@ -2,12 +2,6 @@
   "name": "tadmin",
   "description": "[Table-based ADMIN] = TADMIN is assembled code base for creating a back-office software of their operation administrator.",
   "version": "0.1.1",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
   "engines": {
     "yarn": "허용 안 함",
     "pnpm": "허용 안 함"
@@ -16,7 +10,18 @@
     "name": "오승환",
     "email": "oshxios@gmail.com"
   },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
+    "@emotion/cache": "^11.9.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.4",
     "next": "12.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -27,6 +32,7 @@
     "@types/react-dom": "18.0.5",
     "eslint": "8.17.0",
     "eslint-config-next": "12.1.6",
+    "prettier": "^2.7.1",
     "typescript": "4.7.3"
   }
 }
