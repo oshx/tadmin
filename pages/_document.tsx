@@ -9,13 +9,14 @@ import Document, {
 import { ReactElement } from 'react';
 import createEmotionServer from '@emotion/server/create-instance';
 import createEmotionCache from '@/utils/emotion/cache';
+import Meta from '@/configs/meta';
 
 class TadminDocument extends Document {
   public render(): ReactElement {
     return (
       <Html>
         <Head>
-          <title>TADMIN</title>
+          <title>{Meta.serviceName}</title>
           <meta charSet="UTF-8" />
           <link rel="icon" href="/favicon.ico" />
         </Head>

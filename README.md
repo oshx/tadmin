@@ -17,6 +17,6 @@ npm run dev
 
 
 [Material-UI](https://mui.com/)
-- [Next.js Configuration](https://github.com/mui/material-ui/tree/master/examples/nextjs)
+- [Next.js + TypeScript Configuration](https://github.com/mui/material-ui/tree/master/examples/nextjs-with-typescript)
 
 [Emotion](https://emotion.sh/)
